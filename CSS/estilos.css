@@ -606,11 +606,11 @@ body {
 }
 
 @media (max-width:600px) {
-    .hero__title {
+    .hero_title {
         font-size: 2rem;
     }
 
-    .hero__paragraph {
+    .hero_paragraph {
         font-size: 1rem;
     }
 
@@ -618,16 +618,16 @@ body {
         font-size: 1.8rem;
     }
 
-    .price__element {
+    .price_element {
         width: 90%;
     }
 
-    .price__element--best {
+    .price_element--best {
         width: 90%;
         /* padding: 40px; */
     }
 
-    .price__price {
+    .price_price {
         font-size: 2rem;
     }
 
@@ -635,16 +635,16 @@ body {
         --padding-container: 60px 0;
     }
 
-    .testimony__container {
+    .testimony_container {
         grid-template-columns: 28px 1fr 28px;
         gap: .9em;
     }
 
-    .testimony__arrow {
+    .testimony_arrow {
         width: 100%;
     }
 
-    .testimony__course {
+    .testimony_course {
         margin-top: 15px;
     }
 
@@ -652,7 +652,7 @@ body {
         font-size: 1rem;
     }
 
-    .footer__title {
+    .footer_title {
         justify-self: start;
         margin-bottom: 15px;
     }
@@ -661,28 +661,29 @@ body {
         padding-bottom: 60px;
     }
 
-    .nav__link--footer {
+    .nav_link--footer {
         justify-content: space-between;
     }
 
-    .footer__inputs {
+    .footer_inputs {
         flex-wrap: wrap;
     }
 
-    .footer__input {
+    .footer_input {
         flex-basis: 100%;
         margin: 0;
         margin-bottom: 16px;
     }
 
-    .footer__submit {
+    .footer_submit {
         margin-right: auto;
         margin-left: 0;
+        
 
 
-        /*  otrs opciono para el btn
+         /*
         margin:0;
-        width: 100%;
-        */
-    }
+        width: 100%;*/
+
+         }
 }
